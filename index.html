@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CodePen</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="up">
+            <div class="code">
+                <label><i class="fa-brands fa-html5"></i>HTML</label>
+                <textarea id="htmlCode" onkeyup="run()"></textarea>
+            </div>
+            <div class="code">
+                <label><i class="fa-brands fa-css3-alt"></i>CSS</label>
+                <textarea id="cssCode" onkeyup="run()"></textarea>
+            </div>
+            <div class="code">
+                <label><i class="fa-brands fa-square-js"></i>JS</label>
+                <textarea id="javaScriptCode" onkeyup="run()"></textarea>
+            </div>
+
+
+
+        </div>
+        <div class="down">
+            <div class="code">
+                <label><i class="fa-solid fa-arrow-right"></i>OutPut</label>
+                <iframe id="output"></iframe>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/815a072481.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
